@@ -16,6 +16,8 @@ The processing should include the following:
 
 They are written in ERB but you are welcome to rewrite them to use a different engine. Data to be inserted into the templates are stored in the `app/data` directory.
 
+You may use the ERB module but if you finish quickly try doing it manually.
+
 ### Concatenate and minify CSS and JS
 
 You'll need to handle the import paths in the templates and create manifests.
@@ -31,3 +33,5 @@ Hash the assets so that you can tell if they've changed and need rebuilt.
 * Make the pipeline arbitrarily chainable so that you can have e.g. templating in your JS. So cool.
 
 * Make templating engine, choice of front end language etc configurable.
+
+* Replace the CSS with SCSS and get it working.
