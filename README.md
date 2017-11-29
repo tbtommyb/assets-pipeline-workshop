@@ -16,16 +16,18 @@ The processing should include the following:
 
 They are written in ERB but you are welcome to rewrite them to use a different engine. Data to be inserted into the templates are stored in the `app/data` directory.
 
-### Concatenate, transpile and minify CSS and JS
+### Concatenate and minify CSS and JS
 
-You'll need to update the import paths in the templates. Bonus points for code-splitting.
+You'll need to handle the import paths in the templates and create manifests.
+
+Bonus points if you add the ability to transpile from another language to JS.
 
 ### Fingerprint assets
 
 Hash the assets so that you can tell if they've changed and need rebuilt.
 
-#### TODOs
+### Things to do if you have time
 
-Manifest files
-Chaining
-Configurability
+* Make the pipeline arbitrarily chainable so that you can have e.g. templating in your JS. So cool.
+
+* Make templating engine, choice of front end language etc configurable.
