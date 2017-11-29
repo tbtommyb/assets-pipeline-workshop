@@ -1,0 +1,9 @@
+{
+  "posts": [
+    { title: "First post", content: "this is the super cool content" },
+    { title: "Second post", content: "this is the super cool content" },
+    { title: "Third post", content: "this is the super cool content" },
+    { title: "Fourth post", content: "this is the super cool content" },
+    { title: "Fifth post", content: "this is the super cool content" }
+  ]
+}

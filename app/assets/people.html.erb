@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Palatinate Tech</title>
+</head>
+
+<body>
+  <h1>People</h1>
+  <% @people.each do |person| %>
+    <div>
+      <h2>person[:name]</h2>
+      <p>person[:title]</p>
+    </div>
+  <% end %>
+</body>
+</html>
