@@ -1,9 +1,9 @@
 {
   "posts": [
-    { name: "Stephen", content: "CTO" },
-    { name: "Tomas", content: "Developer" },
-    { name: "Luca", content: "Developer" },
-    { name: "Eva", content: "Developer" },
-    { name: "Adrian", content: "Developer" }
+    { "name": "Stephen", "content": "CTO" },
+    { "name": "Tomas", "content": "Developer" },
+    { "name": "Luca", "content": "Developer" },
+    { "name": "Eva", "content": "Developer" },
+    { "name": "Adrian", "content": "Developer" }
   ]
 }
