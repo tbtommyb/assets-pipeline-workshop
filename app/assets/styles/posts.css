@@ -1,0 +1,15 @@
+.blue {
+    background-color: #87CEFA;
+}
+
+.yellow {
+    background-color: #ffffcc;
+}
+
+.post-list {
+    border: 1px solid black;
+}
+
+.post-list__item {
+    box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.75);
+}

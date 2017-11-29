@@ -8,11 +8,13 @@
 
 <body>
   <h1>People</h1>
+  <div class="people-list">
   <% @people.each do |person| %>
-    <div>
-      <h2>person[:name]</h2>
-      <p>person[:title]</p>
+    <div class="people-list__item">
+      <h2><%= person[:name] %></h2>
+      <p><%= person[:title] %></p>
     </div>
   <% end %>
+  </div>
 </body>
 </html>

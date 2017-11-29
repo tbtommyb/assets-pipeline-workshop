@@ -1,0 +1,8 @@
+body {
+    max-width: 800px;
+    line-height: 1.4;
+    font-family: "Open Sans", "Arial";
+    font-size: 16px;
+    color: #444;
+    margin: 2em auto;
+}
