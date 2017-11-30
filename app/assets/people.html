@@ -9,12 +9,14 @@
 <body>
   <h1>People</h1>
   <div class="people-list">
-  <% @people.each do |person| %>
+  <!T @people.each do |person| T!>
     <div class="people-list__item">
-      <h2><%= person[:name] %></h2>
-      <p><%= person[:title] %></p>
+      <h2><!T= person["name"] T!></h2>
+      <p><!T= person["title"] T!></p>
     </div>
-  <% end %>
+  <!T end T!>
   </div>
 </body>
+<!-- <!T script_tag "index.js" T!> -->
+<!-- <!T script_tag "people.js" T!> -->
 </html>
