@@ -16,9 +16,7 @@ The processing should include the following:
 
 ### Convert templates to HTML
 
-The HTML files are written in an exciting new templating language called TMB. It is similar to ERB but uses `<!T T!>` rather than `<% %>`. Sadly no templating engine yet exists to convert it to normal HTML.
-
-Parse the TMB files using the data files in the `app/data` directory. You can leave the script tags commented out for now.
+Parse the ERB files using the data files in the `app/data` directory. You can leave the script tags commented out for now.
 
 You may use the ERB module but if you finish quickly try doing it manually.
 

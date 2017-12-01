@@ -9,12 +9,12 @@
 <body>
   <h1>Posts</h1>
   <div class="post-list blue">
-  <!T @posts.each do |post| T!>
+  <% @posts.each do |post| %>
     <div class="post-list__item yellow">
-      <h2><!T= post["title"] T!></h2>
-      <p><!T= post["content"] T!></p>
+      <h2><%= post["title"] %></h2>
+      <p><%= post["content"] %></p>
     </div>
-  <!T end T!>
+  <% end %>
 </body>
-<!-- <!T script_tag "index.js" T!> -->
+<!-- <%= script_tag "index.js" %> -->
 </html>
